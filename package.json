@@ -1,0 +1,28 @@
+{
+  "name": "dilzzxy-whatsapp-ai-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp AI multi-tool bot with modular plugin/provider architecture",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "pair": "node index.js",
+    "clean:session": "rm -rf session",
+    "clean:tmp": "rm -rf tmp"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@itsliaaa/baileys": "github:itsliaaa/Baileys",
+    "axios": "^1.8.2",
+    "chalk": "^5.3.0",
+    "form-data": "^4.0.2",
+    "fs-extra": "^11.3.0",
+    "mime-types": "^2.1.35",
+    "moment-timezone": "^0.5.48",
+    "pino": "^9.6.0"
+  }
+}
